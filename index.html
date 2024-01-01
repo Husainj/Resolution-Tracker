@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year's Resolution Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New Year's Resolution Tracker</h1>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+        <form id="resolutionForm">
+            <input type="text" id="newResolution" placeholder="Add new resolution">
+            <select id="priority">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <input type="date" id="deadline">
+            <button type="submit">Add Resolution</button>
+        </form>
+        <ul id="resolutionList"></ul>
+        <div id="progressBar"><div></div></div>
+        <p id="progressDisplay">Progress: 0%</p>
+      <button id="clearAll">Clear All Resolutions</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

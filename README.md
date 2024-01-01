@@ -11,4 +11,4 @@ A simple yet effective resolution tracker .
 7. Local Storage: Your data stays safe and retrievable anytime you return.
 8. Clear All Function: Reset your list with a simple click, ready for new goals.
 
-Live preview : https://new-year.husainjhalodwal.repl.co/
+[Live preview]( https://new-year.husainjhalodwal.repl.co/)
